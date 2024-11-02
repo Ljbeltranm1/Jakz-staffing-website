@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JAKZ Staffing Company</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Encabezado con logo -->
+    <header>
+        <div class="logo">
+            <img src="images/file-wLcfij759a7zj5WVACyeANQZ.png" alt="JAKZ Staffing Company Logo" style="width: 150px;">
+            <h1>JAKZ</h1>
+            <h2>Staffing Company</h2>
+        </div>
+        <nav>
+            <span class="menu-icon" onclick="toggleMenu()">☰</span>
+            <ul class="nav-links">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#sobre-nosotros">Sobre Nosotros</a></li>
+                <li><a href="#testimonios">Testimonios</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Sección de Bienvenida -->
+    <section id="inicio" class="fade-in" style="background-image: url('images/file-X8xW8x7dtVovRrnOJZtC09L2.png');">
+        <h2>La Clave para un Evento Perfecto</h2>
+        <p>En JAKZ Staffing Company, nos especializamos en la gestión de personal para eventos de alta calidad. Con un equipo profesional y una atención minuciosa al detalle, hacemos realidad el evento de tus sueños.</p>
+        <button onclick="window.location.href='#servicios'" class="animated-button">Descubre nuestros servicios</button>
+    </section>
+
+    <!-- Sección de Servicios -->
+    <section id="servicios" class="fade-in">
+        <h2>Nuestros Servicios</h2>
+
+        <div class="servicio">
+            <img src="images/file-SQDi14HJmZAWYu5puLGEXupI.png" alt="Personal para eventos">
+            <h3>Servicio de Personal para Eventos</h3>
+            <p>Proveemos personal calificado para manejar cada aspecto de tu evento, asegurando profesionalismo y atención a los detalles.</p>
+        </div>
+
+        <div class="servicio">
+            <img src="images/file-uW4nYxBLrkUNG51adsXr2UAp.png" alt="Coordinación en el lugar">
+            <h3>Coordinación en el Lugar</h3>
+            <p>Supervisión y coordinación en sitio, para que puedas relajarte mientras nuestro equipo se encarga de todo.</p>
+        </div>
+
+        <div class="servicio">
+            <img src="images/file-SdcJxV8BMLWPGdjYBaYAqgq2.png" alt="Servicios especializados">
+            <h3>Servicios Especializados</h3>
+            <p>Ofrecemos personal especializado como meseros, anfitriones, bartenders y personal de seguridad.</p>
+        </div>
+    </section>
+
+    <!-- Sección Sobre Nosotros -->
+    <section id="sobre-nosotros" class="fade-in">
+        <img src="images/file-qZ0FkW4fu8xHo1uXQSjvjASd.png" alt="Equipo JAKZ Staffing">
+        <h2>¿Quiénes Somos?</h2>
+        <p>En JAKZ Staffing Company, nos enorgullece ser un equipo de profesionales comprometidos con la excelencia en cada evento.</p>
+    </section>
+
+    <!-- Sección de Testimonios -->
+    <section id="testimonios" class="fade-in">
+        <h2>Lo que Dicen Nuestros Clientes</h2>
+
+        <div class="testimonio">
+            <img src="images/file-JDtCWax5BZ5PGOLF93aCjExB.png" alt="Evento de cliente 1">
+            <p>"JAKZ Staffing hizo que nuestro evento fuera inolvidable. Su equipo fue puntual, profesional, y atento a cada detalle."</p>
+            <h3>- Cliente 1</h3>
+        </div>
+        <div class="testimonio">
+            <img src="images/event2.jpg" alt="Evento de cliente 2">
+            <p>"La coordinación del equipo de JAKZ nos permitió disfrutar de nuestro evento sin ninguna preocupación. Los recomiendo ampliamente."</p>
+            <h3>- Cliente 2</h3>
+        </div>
+        <div class="testimonio">
+            <img src="images/event3.jpg" alt="Evento de cliente 3">
+            <p>"Cada detalle fue cuidado con precisión, desde la recepción hasta el servicio de bebidas. Un equipo verdaderamente profesional."</p>
+            <h3>- Cliente 3</h3>
+        </div>
+    </section>
+
+    <!-- Sección de Contacto -->
+    <section id="contacto" class="fade-in" style="background-image: url('images/file-XERgaFkKD9C9nYmWzvcP6O5Z.png');">
+        <h2>Contáctanos</h2>
+        <form class="contact-form">
+            <input type="text" placeholder="Nombre" required>
+            <input type="email" placeholder="Correo Electrónico" required>
+            <input type="text" placeholder="Teléfono">
+            <textarea rows="5" placeholder="Mensaje" required></textarea>
+            <button type="submit" class="animated-button">Enviar Consulta</button>
+        </form>
+    </section>
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
